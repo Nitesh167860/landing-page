@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Modern Website Header</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!--================ HEADER START ================-->
+
+<header class="header">
+
+<div class="container">
+
+<!--========== LOGO ==========-->
+
+<a href="#" class="logo">
+
+
+
+<span>Nitesh</span>
+
+</a>
+
+<!-- Search removed from header and moved below -->
+
+<!--========== NAVBAR ==========-->
+
+<nav class="navbar" id="navbar">
+
+<ul>
+
+<li><a href="#" class="active">Home</a></li>
+
+<li class="dropdown">
+
+<a href="#">
+
+About
+
+<i class="fa-solid fa-chevron-down"></i>
+
+</a>
+
+<ul class="dropdown-menu">
+
+<li><a href="#">About Me</a></li>
+
+<li><a href="#">Experience</a></li>
+
+<li><a href="#">Education</a></li>
+
+<li><a href="#">Skills</a></li>
+
+</ul>
+
+</li>
+
+<li class="dropdown">
+
+<a href="#">
+
+Projects
+
+<i class="fa-solid fa-chevron-down"></i>
+
+</a>
+
+<ul class="dropdown-menu">
+
+<li><a href="#">Web Projects</a></li>
+
+<li><a href="#">Android Apps</a></li>
+
+<li><a href="#">Unity Games</a></li>
+
+<li><a href="#">AI Projects</a></li>
+
+</ul>
+
+</li>
+
+<li><a href="#">Services</a></li>
+
+<li><a href="#">Blog</a></li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<!--========== RIGHT SIDE ==========-->
+
+<div class="header-right">
+
+<!-- Notification -->
+
+<div class="notification">
+
+<button class="icon-btn">
+
+<i class="fa-regular fa-bell"></i>
+
+<span class="badge"></span>
+
+</button>
+
+</div>
+
+<!-- User -->
+
+<div class="user-menu">
+
+<button class="user-btn" type="button" aria-haspopup="true" aria-expanded="false">
+
+<img src="https://i.pravatar.cc/100" alt="User avatar">
+
+</button>
+
+<div class="user-dropdown">
+
+<button id="themeBtn" class="dropdown-theme-btn theme-toggle-btn" type="button" aria-pressed="false">
+
+<i class="fa-solid fa-moon"></i>
+
+Theme
+
+</button>
+
+<a href="#">
+
+<i class="fa-solid fa-user"></i>
+
+Profile
+
+</a>
+
+<a href="#">
+
+<i class="fa-solid fa-gear"></i>
+
+Settings
+
+</a>
+
+<a href="#">
+
+<i class="fa-solid fa-heart"></i>
+
+Wishlist
+
+</a>
+
+<a href="#">
+
+<i class="fa-solid fa-box"></i>
+
+Orders
+
+</a>
+
+<hr>
+
+<a href="#">
+
+<i class="fa-solid fa-right-from-bracket"></i>
+
+Logout
+
+</a>
+
+</div>
+
+</div>
+
+<!-- Mobile -->
+ <div class="overlay"></div>
+
+<button class="menu-btn" id="menuBtn" type="button" aria-controls="mobileMenu" aria-expanded="false">
+
+<i class="fa-solid fa-bars"></i>
+
+</button>
+
+</div>
+
+</div>
+
+</header>
+
+<div class="search-bar-container">
+  <div class="container">
+    <div class="search-box">
+      <input type="text" aria-label="Search projects" placeholder="Search Project...">
+      <button type="button">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!--================ MOBILE MENU ================-->
+
+<div class="mobile-menu" id="mobileMenu">
+
+<ul>
+
+<li>
+
+<details class="mobile-account">
+
+<summary><span class="mobile-account-summary"><img src="https://i.pravatar.cc/100" alt="User avatar"> Account</span></summary>
+
+<a href="#">Profile</a>
+
+<a href="#">Settings</a>
+
+<a href="#">Wishlist</a>
+
+<a href="#">Orders</a>
+
+<button class="mobile-theme-toggle theme-toggle-btn" type="button" aria-pressed="false">
+
+<i class="fa-solid fa-moon"></i> Theme
+
+</button>
+
+</details>
+
+</li>
+
+<li><a href="#">Home</a></li>
+
+<li>
+
+<details>
+
+<summary>About</summary>
+
+<a href="#">About Me</a>
+
+<a href="#">Experience</a>
+
+<a href="#">Education</a>
+
+<a href="#">Skills</a>
+
+</details>
+
+</li>
+
+<li>
+
+<details>
+
+<summary>Projects</summary>
+
+<a href="#">Web Projects</a>
+
+<a href="#">Android</a>
+
+<a href="#">Unity</a>
+
+<a href="#">AI</a>
+
+</details>
+
+</li>
+
+<li><a href="#">Services</a></li>
+
+<li><a href="#">Blog</a></li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+</div>
+
+<!--================ DEMO CONTENT ================-->
+
+<section class="hero">
+
+<h1>Modern Responsive Header</h1>
+
+<p>
+
+Reusable Header Layout for Any Website
+
+</p>
+
+</section>
+
+<!--================ FOOTER ================-->
+
+<footer>
+
+<div class="footer-container">
+
+<div>
+
+<h3>Website</h3>
+
+<p>
+
+Reusable responsive Header + Footer.
+
+</p>
+
+</div>
+
+<div>
+
+<h3>Quick Links</h3>
+
+<a href="#">Home</a>
+
+<a href="#">About</a>
+
+<a href="#">Projects</a>
+
+<a href="#">Contact</a>
+
+</div>
+
+<div>
+
+<h3>Follow</h3>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-facebook"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+<a href="#"><i class="fab fa-github"></i></a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="copyright">
+
+© 2026 All Rights Reserved.
+
+</div>
+
+</footer>
+
+<!-- Scroll -->
+
+<button id="scrollTop">
+
+<i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
